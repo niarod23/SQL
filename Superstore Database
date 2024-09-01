@@ -40,3 +40,8 @@ Show a statistic about the price for items in the category of "Kitchen Supplies"
 SELECT avg(price)
 FROM superstore
 WHERE category="Kitchen Supplies"
+
+Show a statistic about the average rating for items in electronics category.
+SELECT AVG(average_rating)
+FROM superstore
+WHERE category="Electronics";
